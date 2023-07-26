@@ -59,8 +59,8 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section.no-top-padding {
@@ -107,11 +107,6 @@ body {
   display: inline-block;
 }
 
-.page-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .studio {
   color: var(--navyblue);
 }
@@ -156,6 +151,7 @@ body {
 
 .contacts-menu .contact {
   color: var(--navyblue);
+  font-weight: 400;
 }
 
 .hero {
@@ -165,6 +161,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -214,12 +214,6 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-
 .benefits {
   display: flex;
   position: relative;
@@ -239,7 +233,6 @@ body {
 }
 
 .antenna {
-  position: absolute;
   margin-top: 45px;
   margin-left: 55px;
   width: 112px;
@@ -308,13 +301,14 @@ body {
 .team .position {
   line-height: 1.19;
   text-align: center;
-  padding-top: 30px;
 }
 
 .team .name {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team .position {
@@ -350,13 +344,13 @@ body {
 .social-team {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 24px;
+  padding-top: 10px;
 }
 
 .icon-item {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
 }
 
 .social-team .link {
@@ -374,7 +368,7 @@ body {
 
 .social-team .link:hover,
 .social-team .link:focus {
-  background-color: var(--oceancolor);
+  background-color: var(--green);
 }
 
 .social-team .icon {
@@ -384,7 +378,7 @@ body {
 .partners {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 30px;
 }
 
 .partners .link {
@@ -404,12 +398,23 @@ body {
   fill: currentColor;
 }
 
+.partners .link:hover,
+.partners .link:focus {
+  color: var(--oceancolor);
+  border-color: var(--oceancolor);
+}
+
 .studio-2 {
   color: var(--whitecolor);
 }
 
 .page-footer {
   background-color: var(--navyblue);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  margin: 0 auto;
 }
 
 .footer-description {
@@ -439,29 +444,36 @@ body {
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -12px;
+  margin-left: -50px;
+  align-items: baseline;
 }
 
 .footer-address {
-  display: block;
-  margin-right: 120px;
+  margin-top: 12px;
+  margin-right: 25px;
 }
 
 .footer-block {
-  display: block;
+  margin-top: 12px;
+  margin-left: 123px;
 }
 
 .social-footer .icon-item {
-  padding-top: 16px;
+  padding-top: 10px;
 }
 
 .footer-heading {
   color: var(--cloud);
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 .social-footer {
   display: flex;
-  gap: 16px;
+  gap: 10px;
+  justify-content: flex-start;
 }
 
 .social-footer .link {
